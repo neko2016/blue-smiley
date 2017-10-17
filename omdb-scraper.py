@@ -11,7 +11,7 @@ test = titles[0:5001]
 header = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:39.0) Gecko/20100101 Firefox/39.0"}
 base = "http://www.omdbapi.com/?apikey=PlsBanMe&t="
 
-with open(r"box_office_data.csv", "a") as csv_file:
+with open("box_office_data.csv", "a") as csv_file:
     writer = csv.writer(csv_file, delimiter =",", quoting=csv.QUOTE_MINIMAL)
 
     for i in range(len(test)):
