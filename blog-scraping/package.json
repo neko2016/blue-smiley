@@ -1,8 +1,8 @@
 {
-  "name": "intercom-scraper",
+  "name": "blog-scraper",
   "version": "0.0.1",
   "description": "",
-  "main": "intercom.js",
+  "main": "blog.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
